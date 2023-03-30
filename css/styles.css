@@ -38,7 +38,7 @@ img {
     height: auto;
 }
 
-/* ------------ Header ------------ */
+/* ------------ HEADER ------------ */
 .header {
     background: #FFFFFF;
     margin-top: 0;
@@ -176,7 +176,7 @@ img {
 }
 
 /* ------------ MAIN INDEX ------------ */
-    /*  ------------ Sections  ------------ */
+/*  ------------ Sections  ------------ */
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -197,17 +197,21 @@ img {
 
 .features,
 .doing,
+.customers,
 .portfolio {
     background-color: #FFFFFF;
 }
 
 .features,
 .doing,
-.team {
+.team,
+.customers {
     padding-top: 120px;
 }
 
-.doing, .team {
+.doing,
+.customers,
+.team {
     padding-bottom: 120px;
 }
 
@@ -258,8 +262,14 @@ img {
     text-align: center;
 }
 
+.customers-list {
+    outline: 1px solid #000000;
+    display: flex;
+    margin-top: 72px;
+}
+
 /*  ------------ MAIN PORTFOLIO ------------ */
-    /*  ------------ top menu ------------  */
+/*  ------------ top menu ------------  */
 .portfolio-container {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -298,7 +308,7 @@ img {
     color: #FFFFFF;
 }
 
-    /*  ------------ card gallery ------------  */
+/*  ------------ card gallery ------------  */
 
 .portfolio-gallery {
     display: flex;
@@ -331,7 +341,17 @@ img {
     padding-bottom: 100px;
 }
 
+.footer-navigation {
+    display: flex;
+}
+
+.footer-part-logo {
+    display: block;
+    width: 264px;
+}
+
 .footer-text {
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -354,4 +374,29 @@ img {
 
 .logo-footer-color {
     color: #f4f4fd;
+}
+
+.footer-part-socmedia {
+    display: block;
+    width: 208px;
+    margin-left: 120px;
+}
+
+.socmedia-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.socmedia-list-item {
+    margin-top: 16px;
+}
+
+.socmedia-list-item-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
 }
