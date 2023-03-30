@@ -224,6 +224,16 @@ img {
     flex-basis: calc((100% - 3*24px)/4);
 }
 
+.feature::before {
+    display: block;
+    content: '';
+    height: 112px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+}
+
 .text {
     font-size: 16px;
     line-height: 1.5;
@@ -263,10 +273,20 @@ img {
 }
 
 .customers-list {
-    outline: 1px solid #000000;
     display: flex;
     margin-top: 72px;
+    gap: 24px;
 }
+
+.border-customers-logo {
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 168px;
+    padding: 88px;
+    padding: 32px 16px;
+
+}
+
 
 /*  ------------ MAIN PORTFOLIO ------------ */
 /*  ------------ top menu ------------  */
