@@ -138,6 +138,7 @@ img {
 .hero {
     text-align: center;
     background: #2E2F42;
+    background-image: linear-gradient(center, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero_bg.jpg");
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -217,6 +218,7 @@ img {
 
 .features-list {
     display: flex;
+    align-items: center;
     gap: 24px;
 }
 
@@ -228,9 +230,14 @@ img {
     display: block;
     content: '';
     height: 112px;
+    padding: 24px 100px;
     background: #F4F4FD;
     border-radius: 4px;
     margin-bottom: 8px;
+    background-image: url(/images/antenna.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -274,6 +281,7 @@ img {
 
 .customers-list {
     display: flex;
+    align-items: center;
     margin-top: 72px;
     gap: 24px;
 }
@@ -404,6 +412,7 @@ img {
 
 .socmedia-list {
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
     gap: 16px;
