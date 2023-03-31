@@ -136,11 +136,20 @@ img {
 
 /*  ------------ HERO ------------ */
 .hero {
-    text-align: center;
     background: #2E2F42;
-    background-image: linear-gradient(center, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero_bg.jpg");
+}
+
+.hero-bg {
+    display: block;
+    max-width: 1440px;
+    min-height: 600px;
+    margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/hero_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-title {
@@ -148,8 +157,8 @@ img {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin: 0 auto;
-    margin-bottom: 48px;
+    text-align: center;
+    margin: 0 auto 48px auto;
     width: 496px;
     color: #FFFFFF;
 }
