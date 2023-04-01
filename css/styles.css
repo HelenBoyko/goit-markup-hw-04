@@ -149,7 +149,7 @@ img {
     margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/hero_bg.jpg");
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -252,19 +252,19 @@ img {
 }
 
 .icon-strategy::before {
-    background-image: url(/images/antenna.png);
+    background-image: url(../images/antenna.png);
 }
 
 .icon-punctuality::before {
-    background-image: url(/images/clock.png);
+    background-image: url(../images/clock.png);
 }
 
 .icon-diligence::before {
-    background-image: url(/images/diagram.png);
+    background-image: url(../images/diagram.png);
 }
 
 .icon-technologies::before {
-    background-image: url(/images/astronaut.png);
+    background-image: url(../images/astronaut.png);
 }
 
 .text {
