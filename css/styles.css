@@ -298,6 +298,8 @@ img {
 .team-card {
     width: 264px;
     background-color: #FFFFFF;
+    box-shadow: var(--card-shadow);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-container {
@@ -411,7 +413,7 @@ img {
 
 .gallery-card {
     border: 1px solid #E7E9FC;
-    /* box-shadow: var(--card-shadow); */
+    box-shadow: var(--card-shadow);
 }
 
 /* ------------ FOOTER ------------ */
